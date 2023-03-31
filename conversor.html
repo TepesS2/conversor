@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----boodstrap---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--fonte-->
+    <link url="https://fonts.google.com/specimen/Fjalla+One">
+    <link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+    <title>conversor</title>
+</head>
+<body>
+    <!----------------------celsius-------------------------->
+    <div class="container">
+        <div class="text-center titulo-site">
+            <h1>CONVERSOR DE TEMPERATURA <span id="temp" class="fa"></span></h1>
+        </div>
+
+        <div class="input text-center">
+            <div class="row">
+                <div class="col-mds-6 mx-auto">
+                    <div class="form-group">
+
+                        <label for="temperatura-entrada" class="text-light"><h3>Temperatura em °C</h3></label>
+                        <input type="number" id="temperatura-entrada" class="form-control" step=0.01 placeholder="Digite a temperatura que sera convertida:" pattern="[0-9]" required/>
+
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="saida">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saida-firen"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saida-kelvin"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saida-rakine"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------------firen---------------------------->
+ 
+    <div class="container">
+        <div class="text-center titulo-site">
+            <h1><span id="temp" class="fa"></span></h1>
+        </div>
+
+        <div class="input text-center">
+            <div class="row">
+                <div class="col-mds-6 mx-auto">
+                    <div class="form-group">
+
+                        <label for="tempf" class="text-light"><h3>Temperatura em °F</h3></label>
+                        <input type="number" id="tempf" class="form-control" step=0.01 placeholder="Digite a temperatura que sera convertida:" pattern="[0-9]" required/>
+
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="saidaf">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidaf-cel"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidaf-kelvin"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidaf-rakine"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------kelvin--------------------->
+
+    <div class="container">
+        <div class="text-center titulo-site">
+            <h1><span id="temp" class="fa"></span></h1>
+        </div>
+
+        <div class="input text-center">
+            <div class="row">
+                <div class="col-mds-6 mx-auto">
+                    <div class="form-group">
+
+                        <label for="tempk" class="text-light"><h3>Temperatura em °K </h3></label>
+                        <input type="number" id="tempk" class="form-control" step=0.01 placeholder="Digite a temperatura que sera convertida:" pattern="[0-9]" required/>
+
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="saidak">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidak-cel"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidak-kelvin"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidak-rakine"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------Rankin-------------->
+    
+    <div class="container">
+        <div class="text-center titulo-site">
+            <h1><span id="temp" class="fa"></span></h1>
+        </div>
+
+        <div class="input text-center">
+            <div class="row">
+                <div class="col-mds-6 mx-auto">
+                    <div class="form-group">
+
+                        <label for="tempr" class="text-light"><h3>Temperatura em °R </h3></label>
+                        <input type="number" id="tempr" class="form-control" step=0.01 placeholder="Digite a temperatura que sera convertida:" pattern="[0-9]" required/>
+
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="saidar">
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidar-cel"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidar-kelvin"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="card bg-sucess mb-2">
+                 <span id="saidar-rakine"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script conversor temp.js"></script>
+</body>
+</html>

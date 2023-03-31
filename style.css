@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgb(78, 77, 75);
+    font-family: 'Share Tech Mono', monospace;
+}
+.titulo-site{
+    padding: 30px;
+    color: aliceblue;
+}
+#saida{
+    display:none ;
+}
+#saidaf{
+    display:none ;
+}
+#saidak{
+    display:none ;
+}
+#saidar{
+    display:none ;
+}
+.form-control{
+    border-radius: 60px;
+    border-color: orange;
+    border-width: 5px;
+}
